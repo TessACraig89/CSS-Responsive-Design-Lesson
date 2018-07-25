@@ -62,9 +62,11 @@ header nav > ul > li:nth-child(4) a:hover {
 
 /* MAIN COLUMNS */
 /* puts columns in row */
+/* min width so it doesnt look squished in smaller screens */
 main .column {
   float: left;
   width: 33.33%;
+  min-width: 320px;
 }
 
 main .column:nth-child(1) h2 { background: rgb(126, 211, 33);}
